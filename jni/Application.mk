@@ -4,7 +4,8 @@
 APP_PLATFORM := android-9
 NDK_TOOLCHAIN_VERSION=4.9
 APP_PIE := false
-APP_ABI := armeabi armeabi-v7a
+APP_ABI := armeabi armeabi-v7a x86
+# arm64-v8a
 APP_STL := gnustl_static
 
 SECURE_LIBS := securejni
